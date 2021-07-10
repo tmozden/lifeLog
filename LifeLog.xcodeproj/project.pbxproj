@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F91AC3326951F4A0010D8BB /* MealLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3226951F4A0010D8BB /* MealLog.swift */; };
+		1F91AC3426951F4A0010D8BB /* MealLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3226951F4A0010D8BB /* MealLog.swift */; };
+		1F91AC3526951F4A0010D8BB /* MealLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3226951F4A0010D8BB /* MealLog.swift */; };
+		1F91AC3726951F9E0010D8BB /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3626951F9E0010D8BB /* MealBuilder.swift */; };
+		1F91AC3826951F9E0010D8BB /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3626951F9E0010D8BB /* MealBuilder.swift */; };
+		1F91AC3926951F9E0010D8BB /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3626951F9E0010D8BB /* MealBuilder.swift */; };
+		1F91AC3C26952A510010D8BB /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3B26952A510010D8BB /* AddMealView.swift */; };
+		1F91AC3D26952A510010D8BB /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3B26952A510010D8BB /* AddMealView.swift */; };
+		1F91AC3E26952A510010D8BB /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC3B26952A510010D8BB /* AddMealView.swift */; };
+		1F91AC4426955A920010D8BB /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4326955A920010D8BB /* LogManager.swift */; };
+		1F91AC4526955A920010D8BB /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4326955A920010D8BB /* LogManager.swift */; };
+		1F91AC4626955A920010D8BB /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4326955A920010D8BB /* LogManager.swift */; };
+		1F91AC4826955F310010D8BB /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4726955F310010D8BB /* MealsView.swift */; };
+		1F91AC4926955F310010D8BB /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4726955F310010D8BB /* MealsView.swift */; };
+		1F91AC4A26955F310010D8BB /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4726955F310010D8BB /* MealsView.swift */; };
+		1F91AC4C2695646B0010D8BB /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4B2695646B0010D8BB /* MealView.swift */; };
+		1F91AC4D2695646B0010D8BB /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4B2695646B0010D8BB /* MealView.swift */; };
+		1F91AC4E2695646B0010D8BB /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4B2695646B0010D8BB /* MealView.swift */; };
+		1F91AC5026966A3D0010D8BB /* DrinkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4F26966A3D0010D8BB /* DrinkLog.swift */; };
+		1F91AC5126966A3D0010D8BB /* DrinkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4F26966A3D0010D8BB /* DrinkLog.swift */; };
+		1F91AC5226966A3D0010D8BB /* DrinkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC4F26966A3D0010D8BB /* DrinkLog.swift */; };
+		1F91AC542696754A0010D8BB /* AddDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC532696754A0010D8BB /* AddDrinkView.swift */; };
+		1F91AC552696754A0010D8BB /* AddDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC532696754A0010D8BB /* AddDrinkView.swift */; };
+		1F91AC562696754A0010D8BB /* AddDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC532696754A0010D8BB /* AddDrinkView.swift */; };
+		1F91AC58269687E60010D8BB /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC57269687E60010D8BB /* DrinkView.swift */; };
+		1F91AC59269687E60010D8BB /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC57269687E60010D8BB /* DrinkView.swift */; };
+		1F91AC5A269687E60010D8BB /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC57269687E60010D8BB /* DrinkView.swift */; };
+		1F91AC5C269688720010D8BB /* DrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC5B269688720010D8BB /* DrinksView.swift */; };
+		1F91AC5D269688720010D8BB /* DrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC5B269688720010D8BB /* DrinksView.swift */; };
+		1F91AC5E269688720010D8BB /* DrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AC5B269688720010D8BB /* DrinksView.swift */; };
+		1FE7603C26951E8600051637 /* LifeLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7603B26951E8600051637 /* LifeLogApp.swift */; };
+		1FE7603E26951E8600051637 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7603D26951E8600051637 /* ContentView.swift */; };
+		1FE7604026951E8700051637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7603F26951E8700051637 /* Assets.xcassets */; };
+		1FE7604326951E8700051637 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7604226951E8700051637 /* Preview Assets.xcassets */; };
+		1FE7604E26951E8700051637 /* LifeLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7604D26951E8700051637 /* LifeLogTests.swift */; };
+		1FE7605926951E8700051637 /* LifeLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7605826951E8700051637 /* LifeLogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FE7604A26951E8700051637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE7603026951E8600051637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE7603726951E8600051637;
+			remoteInfo = LifeLog;
+		};
+		1FE7605526951E8700051637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE7603026951E8600051637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE7603726951E8600051637;
+			remoteInfo = LifeLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F91AC3226951F4A0010D8BB /* MealLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealLog.swift; sourceTree = "<group>"; };
+		1F91AC3626951F9E0010D8BB /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
+		1F91AC3B26952A510010D8BB /* AddMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealView.swift; sourceTree = "<group>"; };
+		1F91AC4326955A920010D8BB /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		1F91AC4726955F310010D8BB /* MealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsView.swift; sourceTree = "<group>"; };
+		1F91AC4B2695646B0010D8BB /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		1F91AC4F26966A3D0010D8BB /* DrinkLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLog.swift; sourceTree = "<group>"; };
+		1F91AC532696754A0010D8BB /* AddDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinkView.swift; sourceTree = "<group>"; };
+		1F91AC57269687E60010D8BB /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		1F91AC5B269688720010D8BB /* DrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksView.swift; sourceTree = "<group>"; };
+		1FE7603826951E8600051637 /* LifeLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE7603B26951E8600051637 /* LifeLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLogApp.swift; sourceTree = "<group>"; };
+		1FE7603D26951E8600051637 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FE7603F26951E8700051637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FE7604226951E8700051637 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FE7604426951E8700051637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE7604926951E8700051637 /* LifeLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE7604D26951E8700051637 /* LifeLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLogTests.swift; sourceTree = "<group>"; };
+		1FE7604F26951E8700051637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE7605426951E8700051637 /* LifeLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE7605826951E8700051637 /* LifeLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLogUITests.swift; sourceTree = "<group>"; };
+		1FE7605A26951E8700051637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE7603526951E8600051637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7604626951E8700051637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7605126951E8700051637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F91AC3126951F320010D8BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F91AC3226951F4A0010D8BB /* MealLog.swift */,
+				1F91AC3626951F9E0010D8BB /* MealBuilder.swift */,
+				1F91AC4326955A920010D8BB /* LogManager.swift */,
+				1F91AC4F26966A3D0010D8BB /* DrinkLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F91AC3A26952A2F0010D8BB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7603D26951E8600051637 /* ContentView.swift */,
+				1F91AC3B26952A510010D8BB /* AddMealView.swift */,
+				1F91AC4726955F310010D8BB /* MealsView.swift */,
+				1F91AC4B2695646B0010D8BB /* MealView.swift */,
+				1F91AC532696754A0010D8BB /* AddDrinkView.swift */,
+				1F91AC57269687E60010D8BB /* DrinkView.swift */,
+				1F91AC5B269688720010D8BB /* DrinksView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1FE7602F26951E8600051637 = {
+			isa = PBXGroup;
+			children = (
+				1FE7603A26951E8600051637 /* LifeLog */,
+				1FE7604C26951E8700051637 /* LifeLogTests */,
+				1FE7605726951E8700051637 /* LifeLogUITests */,
+				1FE7603926951E8600051637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FE7603926951E8600051637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7603826951E8600051637 /* LifeLog.app */,
+				1FE7604926951E8700051637 /* LifeLogTests.xctest */,
+				1FE7605426951E8700051637 /* LifeLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE7603A26951E8600051637 /* LifeLog */ = {
+			isa = PBXGroup;
+			children = (
+				1F91AC3A26952A2F0010D8BB /* UI */,
+				1F91AC3126951F320010D8BB /* Model */,
+				1FE7603B26951E8600051637 /* LifeLogApp.swift */,
+				1FE7603F26951E8700051637 /* Assets.xcassets */,
+				1FE7604426951E8700051637 /* Info.plist */,
+				1FE7604126951E8700051637 /* Preview Content */,
+			);
+			path = LifeLog;
+			sourceTree = "<group>";
+		};
+		1FE7604126951E8700051637 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7604226951E8700051637 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FE7604C26951E8700051637 /* LifeLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7604D26951E8700051637 /* LifeLogTests.swift */,
+				1FE7604F26951E8700051637 /* Info.plist */,
+			);
+			path = LifeLogTests;
+			sourceTree = "<group>";
+		};
+		1FE7605726951E8700051637 /* LifeLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7605826951E8700051637 /* LifeLogUITests.swift */,
+				1FE7605A26951E8700051637 /* Info.plist */,
+			);
+			path = LifeLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FE7603726951E8600051637 /* LifeLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE7605D26951E8700051637 /* Build configuration list for PBXNativeTarget "LifeLog" */;
+			buildPhases = (
+				1FE7603426951E8600051637 /* Sources */,
+				1FE7603526951E8600051637 /* Frameworks */,
+				1FE7603626951E8600051637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLog;
+			productName = LifeLog;
+			productReference = 1FE7603826951E8600051637 /* LifeLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FE7604826951E8700051637 /* LifeLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE7606026951E8700051637 /* Build configuration list for PBXNativeTarget "LifeLogTests" */;
+			buildPhases = (
+				1FE7604526951E8700051637 /* Sources */,
+				1FE7604626951E8700051637 /* Frameworks */,
+				1FE7604726951E8700051637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE7604B26951E8700051637 /* PBXTargetDependency */,
+			);
+			name = LifeLogTests;
+			productName = LifeLogTests;
+			productReference = 1FE7604926951E8700051637 /* LifeLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FE7605326951E8700051637 /* LifeLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE7606326951E8700051637 /* Build configuration list for PBXNativeTarget "LifeLogUITests" */;
+			buildPhases = (
+				1FE7605026951E8700051637 /* Sources */,
+				1FE7605126951E8700051637 /* Frameworks */,
+				1FE7605226951E8700051637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE7605626951E8700051637 /* PBXTargetDependency */,
+			);
+			name = LifeLogUITests;
+			productName = LifeLogUITests;
+			productReference = 1FE7605426951E8700051637 /* LifeLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FE7603026951E8600051637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1FE7603726951E8600051637 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1FE7604826951E8700051637 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1FE7603726951E8600051637;
+					};
+					1FE7605326951E8700051637 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1FE7603726951E8600051637;
+					};
+				};
+			};
+			buildConfigurationList = 1FE7603326951E8600051637 /* Build configuration list for PBXProject "LifeLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FE7602F26951E8600051637;
+			productRefGroup = 1FE7603926951E8600051637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FE7603726951E8600051637 /* LifeLog */,
+				1FE7604826951E8700051637 /* LifeLogTests */,
+				1FE7605326951E8700051637 /* LifeLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FE7603626951E8600051637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE7604326951E8700051637 /* Preview Assets.xcassets in Resources */,
+				1FE7604026951E8700051637 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7604726951E8700051637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7605226951E8700051637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE7603426951E8600051637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F91AC4426955A920010D8BB /* LogManager.swift in Sources */,
+				1FE7603E26951E8600051637 /* ContentView.swift in Sources */,
+				1F91AC3326951F4A0010D8BB /* MealLog.swift in Sources */,
+				1F91AC542696754A0010D8BB /* AddDrinkView.swift in Sources */,
+				1F91AC4C2695646B0010D8BB /* MealView.swift in Sources */,
+				1F91AC3726951F9E0010D8BB /* MealBuilder.swift in Sources */,
+				1F91AC4826955F310010D8BB /* MealsView.swift in Sources */,
+				1FE7603C26951E8600051637 /* LifeLogApp.swift in Sources */,
+				1F91AC3C26952A510010D8BB /* AddMealView.swift in Sources */,
+				1F91AC5C269688720010D8BB /* DrinksView.swift in Sources */,
+				1F91AC5026966A3D0010D8BB /* DrinkLog.swift in Sources */,
+				1F91AC58269687E60010D8BB /* DrinkView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7604526951E8700051637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE7604E26951E8700051637 /* LifeLogTests.swift in Sources */,
+				1F91AC4526955A920010D8BB /* LogManager.swift in Sources */,
+				1F91AC3426951F4A0010D8BB /* MealLog.swift in Sources */,
+				1F91AC59269687E60010D8BB /* DrinkView.swift in Sources */,
+				1F91AC5126966A3D0010D8BB /* DrinkLog.swift in Sources */,
+				1F91AC552696754A0010D8BB /* AddDrinkView.swift in Sources */,
+				1F91AC4D2695646B0010D8BB /* MealView.swift in Sources */,
+				1F91AC3826951F9E0010D8BB /* MealBuilder.swift in Sources */,
+				1F91AC5D269688720010D8BB /* DrinksView.swift in Sources */,
+				1F91AC3D26952A510010D8BB /* AddMealView.swift in Sources */,
+				1F91AC4926955F310010D8BB /* MealsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7605026951E8700051637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE7605926951E8700051637 /* LifeLogUITests.swift in Sources */,
+				1F91AC4626955A920010D8BB /* LogManager.swift in Sources */,
+				1F91AC3526951F4A0010D8BB /* MealLog.swift in Sources */,
+				1F91AC5A269687E60010D8BB /* DrinkView.swift in Sources */,
+				1F91AC5226966A3D0010D8BB /* DrinkLog.swift in Sources */,
+				1F91AC562696754A0010D8BB /* AddDrinkView.swift in Sources */,
+				1F91AC4E2695646B0010D8BB /* MealView.swift in Sources */,
+				1F91AC3926951F9E0010D8BB /* MealBuilder.swift in Sources */,
+				1F91AC5E269688720010D8BB /* DrinksView.swift in Sources */,
+				1F91AC3E26952A510010D8BB /* AddMealView.swift in Sources */,
+				1F91AC4A26955F310010D8BB /* MealsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FE7604B26951E8700051637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE7603726951E8600051637 /* LifeLog */;
+			targetProxy = 1FE7604A26951E8700051637 /* PBXContainerItemProxy */;
+		};
+		1FE7605626951E8700051637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE7603726951E8600051637 /* LifeLog */;
+			targetProxy = 1FE7605526951E8700051637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FE7605B26951E8700051637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FE7605C26951E8700051637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FE7605E26951E8700051637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 23B2Z9JXMP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LifeLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travismdev.LifeLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FE7605F26951E8700051637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 23B2Z9JXMP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LifeLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travismdev.LifeLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FE7606126951E8700051637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23B2Z9JXMP;
+				INFOPLIST_FILE = LifeLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travismdev.LifeLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLog.app/LifeLog";
+			};
+			name = Debug;
+		};
+		1FE7606226951E8700051637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23B2Z9JXMP;
+				INFOPLIST_FILE = LifeLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travismdev.LifeLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLog.app/LifeLog";
+			};
+			name = Release;
+		};
+		1FE7606426951E8700051637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23B2Z9JXMP;
+				INFOPLIST_FILE = LifeLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travismdev.LifeLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeLog;
+			};
+			name = Debug;
+		};
+		1FE7606526951E8700051637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23B2Z9JXMP;
+				INFOPLIST_FILE = LifeLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travismdev.LifeLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FE7603326951E8600051637 /* Build configuration list for PBXProject "LifeLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE7605B26951E8700051637 /* Debug */,
+				1FE7605C26951E8700051637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE7605D26951E8700051637 /* Build configuration list for PBXNativeTarget "LifeLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE7605E26951E8700051637 /* Debug */,
+				1FE7605F26951E8700051637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE7606026951E8700051637 /* Build configuration list for PBXNativeTarget "LifeLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE7606126951E8700051637 /* Debug */,
+				1FE7606226951E8700051637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE7606326951E8700051637 /* Build configuration list for PBXNativeTarget "LifeLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE7606426951E8700051637 /* Debug */,
+				1FE7606526951E8700051637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FE7603026951E8600051637 /* Project object */;
+}
